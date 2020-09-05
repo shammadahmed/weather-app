@@ -1,0 +1,14 @@
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Poppins', sans-serif;
+}
+
+.wrapper {
+  background-color: white;
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  border: 3px solid black;
+}

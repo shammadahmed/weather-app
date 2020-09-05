@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1>Weather App</h1>
+      <section>
+        <label for="location">Location</label>
+        <input type="text" id="location" placeholder="Boston, US">
+
+        <div class="input-group">
+          <label for="celcius">Celcius</label>
+          <input type="radio" id="celcius" name="unit" value="metric" checked>
+
+          <label for="farenheit">Farenheit</label>
+          <input type="radio" id="farenheit" name="unit" value"imperial">
+        </div>
+
+        <button>Get the weather</button>
+      </section>
+      <p></p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
